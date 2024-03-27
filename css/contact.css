@@ -92,6 +92,23 @@ input, textarea {
     cursor: pointer;
 }
 
+.map-area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 2rem;
+    display: block;
+    background: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.map-area iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
 /* ===================MEDIA QUERIES (TABLETS)
 ========================== */
 @media screen and (max-width: 1024px) {
@@ -114,6 +131,11 @@ input, textarea {
     .contact__form {
         align-self: center;
         margin-right: 1.5rem;
+    }
+
+    .map-area {
+        align-self: center;
+        margin-right: 2rem;
     }
 }
 
